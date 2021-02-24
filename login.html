@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #800080;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #800080;
+}
+
+.imgccontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.ccontainer {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+      <!----------------------------------------menu-bar1----------------------------------->
+  <div class="menu-bar1">
+  <ul>
+    <li><a href="index.html"><small>SALE</small></a></li>
+    <li><a href=https://www.ieee.org/><small>SERVICES</small></a></li>
+    <li><a href=https://www.ieee.org/sitemap.html><small>BRANCES</small></a></li>
+  </ul>
+  </div>
+  <hr>
+
+<!-----------------------------------------logo,title & search box---------------------------->
+<div class="first">
+  <div class="ttle">
+    <h5>PETALS LADIES COLLECTION</h5>
+  </div>
+
+  <div class="main">
+    <input type="text" name="box" placeholder="Search">
+  </div>
+    <div class="butn">
+    <a href="#"></a><i class="fa fa-search fa-2x"></i>
+  </div>
+
+  <div class="imgn">
+    <a href="https://www.ieee.org/" target="_blank"><img src="D:\Desktop\petalsfoeva\images/14-removebg-preview.png" align="right" class="scale-image"></a>   </div>
+</div>
+<!----------------------menu-bar2 and images------------------------->
+<div class="navbar">
+  <a class="active" >HOME</a>
+    <a href="branded.html" >SHOES</a>
+  <a href="branded1.html" >BAGS</a>
+    <div class="dropdown">
+    <button class="dropbtn">DRESS 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="summer.html">SUMMER</a>
+      <a href="winter.html">WINTER</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">TRADITIONAL DRESS 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="saree.html">SAREE</a>
+      <a href="kurti.html">KURTI</a>
+      <a href="swal.html">SWAL</a>
+      <a href="lehenga.html">LEHENGA</a>
+    </div>
+  </div>
+ <div class="dropdown">
+    <button class="dropbtn">ACCESSORIES
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="necklace.html">NECKLACE</a>
+      <a href="breslet.html">BRESLET</a>
+      <a href="earring.html">EARRINGS</a>
+      <a href="ring.html">RINGS</a>
+      <a href="pauju.html">PAUJU</a>
+    </div>
+  </div>
+    <div class="dropdown">
+    <button class="dropbtn">MAKEUP
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="fmakeup.html">FACE-MAKEUP</a>
+      <a href="emakeup.html">EYE-MAKEUP</a>
+      <a href="lmakeup.html">LIPS-STICKS</a>
+      <a href="nmakeup.html">NAILS-MAKEUP</a>
+    </div>
+  </div>
+  <a href="contactus.html">CONTACT US</a>
+  <a href="login.html">LOGIN</a>
+  <a href="index.html">SIGN OUT</a>
+  <img src="images/cart.png" width="30px" height="30px">
+</div>
+
+<h2>Login Form</h2>
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="images/user-1.jpg" width="200px" height="300px" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="ccontainer">
+    <label for="uname"><b>Phone Number</b></label>
+    <input type="text" placeholder="Enter Phone Number" name="phoneno" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="ccontainer" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
